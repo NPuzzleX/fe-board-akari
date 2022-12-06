@@ -387,8 +387,7 @@
     CV.height = originalHeight;
     CV.width = originalWidth;
 
-    scribbleBoard = true;
-    //scribbleBoard = checkTouchscreen();
+    scribbleBoard = checkTouchscreen();
     load();
   });
 
